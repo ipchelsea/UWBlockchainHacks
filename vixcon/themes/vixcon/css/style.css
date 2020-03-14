@@ -37,6 +37,53 @@ body {
   overflow-x: hidden;
 }
 
+.bg-gradient-primary {
+  /* background: -o-linear-gradient(40deg, #6e00ff 0, #b0f 100%)!important; */
+  background: -o-linear-gradient(40deg, #00ccff 0, #b0f 100%)!important;
+  background: linear-gradient(50deg, #00ccff, #b0f)!important
+}
+
+.bg-gradient-secondary {
+  background: -o-linear-gradient(40deg, #eff2f7 0, #eff0f7 100%)!important;
+  background: linear-gradient(50deg, #eff2f7, #eff0f7)!important
+}
+
+.bg-gradient-success {
+  background: -o-linear-gradient(40deg, #36b37e 0, #36b3a4 100%)!important;
+  background: linear-gradient(50deg, #36b37e, #36b3a4)!important
+}
+
+.bg-gradient-info {
+  background: -o-linear-gradient(40deg, #00b8d9 0, #0077d9 100%)!important;
+  background: linear-gradient(50deg, #00b8d9, #0077d9)!important
+}
+
+.bg-gradient-warning {
+  background: -o-linear-gradient(40deg, #ffab00 0, #fff800 100%)!important;
+  background: linear-gradient(50deg, #ffab00, #fff800)!important
+}
+
+.bg-gradient-danger {
+  background: -o-linear-gradient(40deg, #ff5630 0, #ff9430 100%)!important;
+  background: linear-gradient(50deg, #ff5630, #ff9430)!important
+}
+
+.bg-gradient-light {
+  background: -o-linear-gradient(40deg, #eff2f7 0, #eff0f7 100%)!important;
+  background: linear-gradient(50deg, #fafafa, #fafafa)!important
+}
+
+.bg-gradient-dark {
+  background: -o-linear-gradient(40deg, #273444 0, #272b44 100%)!important;
+  background: linear-gradient(50deg, #273444, #272b44)!important
+}
+
+.bg-gradient-neutral,
+.bg-gradient-white {
+  background: -o-linear-gradient(40deg, #fff 0, #fff 100%)!important;
+  background: linear-gradient(50deg, #fff, #fff)!important
+}
+
 body, html {
   height: 100%;
 }
@@ -476,7 +523,7 @@ About
 .stroke-text {
   color: transparent;
   -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #bababa;
+  -webkit-text-stroke-color: #6e00ff;
   font-size: 120px;
   font-weight: 800;
   text-transform: uppercase;
