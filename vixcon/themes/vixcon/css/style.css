@@ -202,9 +202,9 @@ Common
 }
 
 .btn-hero {
-  background: #6e00ff;
+  background: #ff007a;
   color: #ffffff;
-  border-color: #6e00ff;
+  border-color: #ff007a;
 }
 
 .btn-hero:hover {
@@ -404,7 +404,7 @@ banner
   min-height: 700px;
   position: relative;
   background: #eee;
-  background: url("../images/banner/10.png") no-repeat;
+  background: url("../images/banner/ew.png") no-repeat;
   background-position: 65% 50%;
   background-size: cover;
 }
