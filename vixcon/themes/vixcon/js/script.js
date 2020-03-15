@@ -1,9 +1,9 @@
 (function ($) {
 
 	'use strict';
-	
 
-	
+
+
 
 	/*START GOOGLE MAP*/
 	function initialize() {
@@ -20,9 +20,9 @@
 		map: map
 	});
 	}
-	google.maps.event.addDomListener(window, 'load', initialize);	
-	/*END GOOGLE MAP*/	
-		  
+	google.maps.event.addDomListener(window, 'load', initialize);
+	/*END GOOGLE MAP*/
+
 
 
 
@@ -31,17 +31,17 @@
  $('#simple-timer').syotimer({
     year: 2020,
     month: 5,
-    day: 9,
-    hour: 20,
-    minute: 30
+    day: 22,
+    hour: 7,
+    minute: 1
 });
 
 
 
 
     $(document).ready(function () {
-    
-	
+
+
 
 
 	$('#contact-form').validate({
@@ -69,7 +69,7 @@
 			user_email: {
 				required: 'Please put your email address'
 			},
-			
+
 			user_phone: {
 				required: 'Please put your Phone Number'
 			},
