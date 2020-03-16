@@ -451,7 +451,7 @@ banner
   min-height: 700px;
   position: relative;
   background: #eee;
-  background: url("../images/banner/ew.png") no-repeat;
+  background: url("../images/banner/bona.png") no-repeat;
   background-position: 65% 50%;
   background-size: cover;
 }
@@ -675,11 +675,11 @@ Features
 .feature-box .divider {
   width: 45px;
   margin-bottom: 20px;
-  background: #4125dd;
+  background: #ff007a;
 }
 
 .feature-box:hover {
-  background: #4125dd;
+  background: #ff007a;
 }
 
 .feature-box:hover i {
