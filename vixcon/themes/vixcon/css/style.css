@@ -199,7 +199,8 @@ Common
 }
 
 .section-heading p {
-  margin-top: 20px;
+  margin: 0 0 10px;
+  
 }
 
 .form-control {
